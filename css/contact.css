@@ -1,0 +1,88 @@
+#contact_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin: 3rem 0;
+}
+.contact_section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  width: 90%;
+  border: solid 1px black;
+  padding: 5rem 0;
+  border-radius: 50px;
+  background-color: var(--color-08);
+}
+
+.contact_main_title {
+  font-family: var(--font-00);
+  font-size: 3em;
+}
+
+.contact_container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: dashed 1px black;
+  width: 94%;
+  padding: 2rem 0;
+}
+
+.contact_container a {
+  text-decoration: none;
+}
+
+.contact_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.contact_illustr {
+  width: 150px;
+  height: 150px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 10px;
+}
+
+#contact_lk,
+#contact_lk:hover {
+  border: solid 1px #253337;
+}
+
+#contact_lk {
+  background-image: url(../ico/linkedin_hov.png);
+}
+#contact_lk:hover {
+  background-image: url(../ico/linkedin.png);
+}
+
+#contact_mail {
+  background-image: url(../ico/courrier.png);
+}
+#contact_mail:hover {
+  background-image: url(../ico/courrier_hov.png);
+}
+#contact_github {
+  background-image: url(../ico/github-logo2.png);
+}
+#contact_github:hover {
+  background-image: url(../ico/github-logo2_hov.png);
+}
+
+.contact_text {
+  font-family: var(--font-00);
+  font-size: 1.5em;
+  color: black;
+}
+
+.paper_plane_container_Tab {
+  display: none;
+}

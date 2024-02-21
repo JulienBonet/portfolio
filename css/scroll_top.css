@@ -1,0 +1,28 @@
+.scrollToTop {
+  display: none;
+  position: fixed;
+  bottom: 100px;
+  right: 0;
+  background-color: var(--color-03);
+  color: var(--color-00);
+  width: 50px;
+  height: 50px;
+  border: solid 1px black;
+  border-right: 0;
+  border-radius: 50px 0 0 50px;
+  text-align: center;
+  line-height: 46px;
+  font-size: 31px;
+  z-index: 99;
+  text-decoration: none;
+  opacity: 0; /* Initial opacity */
+  transition: opacity 0.5s ease; /* Transition effect */
+}
+
+.scrollToTop.show {
+  opacity: 1; /* Show when scrolled */
+}
+
+.scrollToTop:hover {
+  background-color: var(--color-02);
+}

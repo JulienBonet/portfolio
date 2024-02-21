@@ -1,0 +1,266 @@
+#projet_page {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  width: 90%;
+  border: solid 1px black;
+  padding: 3rem 0;
+  border-radius: 50px;
+  margin: 2rem 0;
+  background-color: var(--color-08);
+}
+.projet_page {
+  width: 90%;
+  border: dashed 1px black;
+  border-radius: 50px;
+  padding: 2rem 0;
+  padding-bottom: 3rem;
+}
+
+.projets_main_title {
+  font-family: var(--font-00);
+  font-size: 3em;
+}
+
+.project_card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+/* BLOC A */
+
+.projet_bloc_A {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  border: dashed 1px black;
+  border-radius: 10px 10px 0 0;
+  width: 94%;
+  padding: 1rem 0;
+  background-color: var(--color-06);
+}
+
+.projet_bloc_illustr {
+  width: 20%;
+}
+.projet_illustr {
+  width: 90%;
+  border: solid 1px black;
+  border-radius: 10px;
+}
+.projet_bloc_title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  gap: 0.5rem;
+}
+
+.projet_title {
+  font-family: var(--font-00);
+  font-size: 3em;
+  font-weight: 500;
+}
+.projet_pitch {
+  font-family: var(--font-00);
+  font-size: 1em;
+  border: solid 1px black;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin-bottom: 0.5rem;
+  background-color: var(--color-09);
+}
+
+.projet_title_infos_bloc {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+}
+.projet_line-info {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.projet_type_info {
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.perso_projet_type_info {
+  justify-content: center;
+  align-items: center;
+}
+.projet_ico_info {
+  width: 8%;
+}
+.perso_projet_ico_info {
+  width: 4%;
+}
+.projet_text_info {
+  font-family: var(--font-00);
+}
+.project_bloc_weblink,
+.project_bloc_github {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 20%;
+}
+.weblink_btn_content,
+.github_btn_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.weblink_projet_btn,
+.github_projet_btn {
+  width: 90px;
+  height: 90px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  border: solid 1px black;
+  border-radius: 5px;
+  transition: 0.5s ease;
+}
+.github_projet_btn {
+  background-image: url(../ico/github_logo.png);
+}
+.github_projet_btn:hover {
+  background-image: url(../ico/github_logo_hov.png);
+}
+.weblink_projet_btn {
+  background-image: url(../ico/www.png);
+}
+.weblink_projet_btn:hover {
+  background-image: url(../ico/www_hov.png);
+}
+
+/* BLOC B */
+
+#street_art_hunterz_project_B,
+#dragon_papers_project_B,
+#grinch_game_project_B,
+#movie_kitchen_project_B,
+#radio_faceB_project_B,
+#JB_photos_project_B {
+  display: flex;
+  justify-content: space-evenly;
+  border: dashed 1px black;
+  border-top: 0;
+  border-radius: 0 0 10px 10px;
+  width: 94%;
+  background-color: var(--color-08);
+  transition: 0.5s ease;
+  padding: 0;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.8s ease;
+}
+
+#street_art_hunterz_project_B.show,
+#dragon_papers_project_B.show,
+#grinch_game_project_B.show,
+#movie_kitchen_project_B.show,
+#radio_faceB_project_B.show,
+#JB_photos_project_B.show {
+  max-height: 1000px;
+}
+
+.projet_bloc_b_infos {
+  width: 45%;
+  padding: 3rem 0;
+}
+.projet_bloc_b_illust {
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 3rem 0;
+}
+.pb_B_stack_area {
+  margin-bottom: 1rem;
+}
+.pb_B_infos_title_container {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+.pb_B_infos_title {
+  font-family: var(--font-00);
+  font-size: 2em;
+}
+.title_stack {
+  margin-bottom: 1.5rem;
+}
+
+.title_context {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+.pb_B_stack_line {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  gap: 10px;
+}
+.pb_B_stack_logo {
+  width: 5%;
+  cursor: pointer;
+}
+.infoAlt {
+  font-family: var(--font-00);
+  font-size: 2em;
+  color: var(--color-02);
+  margin-bottom: 1.5rem;
+  transition: display 0.8s ease;
+}
+
+.pb_B_context_text {
+  font-family: var(--font-00);
+  font-size: large;
+  line-height: 1.2;
+}
+
+/* TOGGLE BTN */
+
+.toggle_btn {
+  width: 5%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: dashed 1px black;
+  border-top: 0;
+  border-radius: 0 0 10px 10px;
+  background-color: var(--color-06);
+}
+
+.toggle_img,
+.toggle_img_open {
+  background-image: url(../ico/expand-arrow.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  /* the scale factor */
+  --f: 1.15;
+  clip-path: inset(0);
+  transition: 0.5s;
+}
+
+.toggle_img_open {
+  transform: scaleY(-1);
+}
+
+.toggle_img_open,
+.toggle_img:hover {
+  clip-path: inset(calc((1 - 1 / var(--f)) * 50%));
+  scale: var(--f);
+}

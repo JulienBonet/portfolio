@@ -1,0 +1,43 @@
+:root {
+  --font-00: "jost";
+  --color-00: #ffffff;
+  --color-01: black;
+  --color-02: #253337;
+  --color-03: #5c6c73;
+  --color-04: #9db5c0;
+  --color-05: #c2e0e3;
+  --color-06: #4d83f50f;
+  --color-07: #f5df4d;
+  --color-08: #ffffff82;
+  --color-09: #ffffff94;
+}
+
+body {
+  background-image: url(../ico/connect.png);
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}
+
+.global_height {
+  min-height: calc(100vh - 100px);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* IFRAME VIDEO */
+
+iframe {
+  border: solid 1px black;
+  border-radius: 10px;
+}
+
+/*  */
+ul {
+  border: solid 1px black;
+}
