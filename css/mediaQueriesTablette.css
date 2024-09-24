@@ -21,6 +21,7 @@
   /* PROJETS */
   #street_art_hunterz_project_B,
   #dragon_papers_project_B,
+  #grinch_game_project_B,
   #movie_kitchen_project_B,
   #radio_faceB_project_B,
   #JB_photos_project_B {
@@ -66,7 +67,7 @@
 }
 
 /* TAB MODE PORTRAIT */
-@media screen and (max-width: 1399px) and (orientation: portrait) {
+@media screen and (min-width: 481px) and (max-width: 1399px) and (orientation: portrait) {
   /* HEADER */
   .logo_site {
     width: 10%;
@@ -144,6 +145,7 @@
   #street_art_hunterz_project_B,
   #dragon_papers_project_B,
   #movie_kitchen_project_B,
+  #grinch_game_project_B,
   #radio_faceB_project_B,
   #JB_photos_project_B {
     flex-direction: column;

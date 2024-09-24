@@ -81,6 +81,10 @@
   background-color: var(--color-08);
 }
 
+#myStack_bloc_down {
+  display: none;
+}
+
 .stacks_lines {
   display: flex;
   flex-direction: column;
@@ -94,6 +98,10 @@
 }
 
 .stackTitle_Tab {
+  display: none;
+}
+
+#backend_StackTitle_Up{
   display: none;
 }
 
