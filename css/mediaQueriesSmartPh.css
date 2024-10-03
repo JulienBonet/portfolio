@@ -132,7 +132,7 @@
   .contact_container {
     border: none;
     padding: 0;
-}
+  }
   .contact_illustr {
     width: 110px;
     height: 110px;
@@ -326,20 +326,28 @@
     border: 0;
     padding: 0;
   }
-  .cc_lk,
+  /* .cc_lk,
   .cc_gh {
     display: none;
-  }
+  } */
+
   .contact_text {
     display: none;
   }
 
   /* FOOTER */
+  .foot_container {
+    justify-content: center;
+  }
   .foot_container a {
     width: 22%;
     justify-content: center;
   }
+
   .footer_Main_title {
     font-size: large;
+  }
+  .foot_nav {
+    display: none;
   }
 }
