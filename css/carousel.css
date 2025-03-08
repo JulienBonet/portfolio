@@ -22,6 +22,10 @@
   grid-template-columns: repeat(7, 100%);
 }
 
+.carousel_9 {
+  grid-template-columns: repeat(9, 100%);
+}
+
 .active {
   scroll-snap-type: unset;
 }

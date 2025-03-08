@@ -143,6 +143,7 @@
 
 /* BLOC B */
 
+#Hotel_MontBlanc_project_B,
 #street_art_hunterz_project_B,
 #dragon_papers_project_B,
 #grinch_game_project_B,
@@ -163,6 +164,7 @@
   transition: max-height 0.8s ease;
 }
 
+#Hotel_MontBlanc_project_B.show,
 #street_art_hunterz_project_B.show,
 #dragon_papers_project_B.show,
 #grinch_game_project_B.show,

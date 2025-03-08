@@ -1,3 +1,22 @@
+// TOGGLE HOTEL MONT-BLANC PARIS
+
+document.addEventListener("DOMContentLoaded", function () {
+  var toggleBtn = document.getElementById("toggle_Hotel_MontBlanc");
+  var projectB = document.getElementById("Hotel_MontBlanc_project_B");
+
+  toggleBtn.addEventListener("click", function () {
+    if (!projectB.classList.contains("show")) {
+      projectB.classList.add("show");
+      toggleBtn.querySelector(".toggle_img").classList.add("toggle_img_open");
+    } else {
+      projectB.classList.remove("show");
+      toggleBtn
+        .querySelector(".toggle_img")
+        .classList.remove("toggle_img_open");
+    }
+  });
+});
+
 // TOGGLE STREET ART HUNTERZ
 
 document.addEventListener("DOMContentLoaded", function () {
